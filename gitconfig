@@ -1,0 +1,7 @@
+[core]
+  editor = nvim
+[help]
+  autocorrect = 10  # after 1 seconds
+[gpg]
+  program = gpg
+
