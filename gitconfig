@@ -1,7 +1,35 @@
+[user]
+	name = eunho-lee
+	email = eunho.ambition@gmail.com
+	signingkey = 719240E897952D99AFDEB1BE36F1325DC51B60F5
+
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
 [core]
-  editor = nvim
+	editor = nvim
+[merge]
+	tool = vimdiff
+
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+
 [help]
   autocorrect = 10  # after 1 seconds
-[gpg]
-  program = gpg
+[pull]
+  rebase = true
 
